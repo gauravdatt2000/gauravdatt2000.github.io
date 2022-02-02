@@ -4,102 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurav Datt</title>
-    <link rel = "icon" href =  "circle1.png" type = "image/x-icon"> 
-    <link rel="stylesheet" href="a.css">
-    <script src="a.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>WhiteBoard</title>
 </head>
 <body>
-    <section id="about">  
+    
+    <!-- <p id="screen"></p> -->
+    
+    <canvas id="myCanvas" width="200" , height="200" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
 
-        <div class="row section-intro">
-            <div class="col-twelve">
- 
-                <h5>About</h5>
-                <h1>Let me introduce myself.</h1>
- 
-                <div class="intro-info">
- 
-                    <img src="aa.jpg" alt="Profile Picture">
- 
-                    <p class="lead">Hi , My name is Gaurav Datt and you can call me gaurav  I am a  <a href="https://www.codechef.com/users/gauravdatt2000" target="_blank"> competitive Programmer </a> , Software Developer , Freelancer and a Gamer . I have some programming experience in C , C++14 , python3  , java , bash shell scripting of Intermediate level programming , I have a some development experience  in web stacks , IoT and in Amazon web services , My future Goals is to  become a Machine Learning Engineer , and I am working on it</p>
-                </div>   			
- 
-            </div>   		
-        </div> <!-- /section-intro -->
- 
-        <div class="row about-content">
- 
-            <div class="col-six tab-full">
- 
-                <h3>Profile</h3>
-                <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
- 
-                <ul class="info-list">
-                    <li>
-                        <strong>Fullname:</strong>
-                        <span>Datt Gaurav Ramchandra</span>
-                    </li>
-                
-                    <li>
-                        <strong>Job:</strong>
-                        <span>Freelancer, Backend Developer </span>
-                    </li>
-                    <li>
-                        <strong>Website:</strong>
-                        <span><a href="http://gauravdatt.in/" target="_blank">gauravdatt.in</a></span>
-                    </li>
-                    <li>
-                        <strong>Email:</strong>
-                        <span> <a href="mailto:gauravdatt2000@gmail.com"> gauravdatt2000@gmail.com</a></span>
-                    </li>
- 
-                </ul> <!-- /info-list -->
- 
-            </div>
- 
-            <div class="col-six tab-full">
- 
-                <h3>Skills</h3>
-                <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
- 
-                 <ul class="skill-bars">
-                    <li>
-                        <div class="progress percent90"><span>90%</span></div>
-                        <strong>HTML5</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent85"><span>85%</span></div>
-                        <strong>CSS3</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent70"><span>70%</span></div>
-                        <strong>JQuery</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent95"><span>95%</span></div>
-                        <strong>PHP</strong>
-                    </li>
-                    <li>
- 
-                        <div class="progress percent75"><span>75%</span></div>
-                        <strong>Wordpress</strong>
-                    </li>
-       
-                 </ul> <!-- /skill-bars -->		
- 
-            </div>
- 
-        </div>
- 
-        <div class="row button-section">
-            <div class="col-twelve">
-                <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-                <a href="#" title="Download CV" class="button button-primary">Download CV</a>
-            </div>   		
-        </div>
- 
-    </section>    
+    <button>Pencil</button>
+    <button onclick="clear_screen()">Clear All</button>
+
+    
 </body>
-
+    <script src="index.js"></script>
 </html>
